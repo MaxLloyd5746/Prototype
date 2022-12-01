@@ -89,7 +89,7 @@ window.addEventListener('load', function() {
                     coinCounter--;
                     score++;
                     this.markedForDeletion = true;
-                    if (score > 500)
+                    if (score > 10000)
                     gameOver = true;
 
                 }
